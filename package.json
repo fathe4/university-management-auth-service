@@ -15,7 +15,7 @@
   "author": "Programming Hero",
   "license": "ISC",
   "lint-staged": {
-    "src/**/*.ts": "yarn prettier:check"
+    "src/**/*.ts": "yarn lint-prettier"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
